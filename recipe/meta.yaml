@@ -1,6 +1,6 @@
 {% set name = "django-pandas" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "d63a800ca2396fc6f6d2deeba787d6b8b0e394c476c7a8fe726e65a3cf75deac" %}
+{% set version = "0.5.2" %}
+{% set sha256 = "fa17bce54b3449412d7a4b29f46a860cdcc30968a40374bbfa5c30c3e2613a76" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,8 @@ requirements:
     - setuptools
   run:
     - python
-    - django >=1.4.2
+    - django >=1.4.5
+    - django-model-utils >=1.4.0
     - pandas >=0.14.1
 
 test:
