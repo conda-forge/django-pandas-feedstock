@@ -22,7 +22,8 @@ requirements:
     - setuptools
   run:
     - python
-    - django >=1.4.2
+    - django >=1.4.5
+    - django-model-utils >=1.4.0
     - pandas >=0.14.1
 
 test:
