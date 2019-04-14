@@ -1,6 +1,6 @@
 {% set name = "django-pandas" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "e0826645eae8f78f8bd6d706bad398693218c90008095df1473b0b8242c31a42" %}
+{% set version = "0.6.1" %}
+{% set sha256 = "788f4652012a67d2c5849191b01af58255f7af815ab612bebca019854235a9bc" %}
 
 package:
   name: {{ name|lower }}
