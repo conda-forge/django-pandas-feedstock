@@ -1,6 +1,6 @@
 {% set name = "django-pandas" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "788f4652012a67d2c5849191b01af58255f7af815ab612bebca019854235a9bc" %}
+{% set version = "0.6.4" %}
+{% set sha256 = "a1b5d300112a09625926a5756aa72bbe8918fb95b9c4ec39b3a06f03e0e336f9" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
@@ -33,15 +33,14 @@ test:
     - django >=1.4.2
     - pandas 0.20.1
     - coverage >=4.0
-    
+
 about:
   home: https://github.com/chrisdev/django-pandas
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  summary: 'Tools for working with pandas in your Django projects'
-  description: 
-    Tools for working with pandas in your Django projects
+  summary: Tools for working with pandas in your Django projects
+  description: Tools for working with pandas in your Django projects
   doc_url: https://media.readthedocs.org/pdf/django-pandas/latest/django-pandas.pdf
   dev_url: https://github.com/chrisdev/django-pandas
 
