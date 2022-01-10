@@ -30,12 +30,18 @@ test:
   imports:
     - django_pandas
     - django_pandas.tests
-  commands:
-    - pip check
+    - django_pandas.managers
+    - django_pandas.utils
+    - django_pandas.io
+    - django_pandas.models
   requires:
     - pip
     - django >=1.4.5
-    
+    - coverage ==5.4
+    - semver ==2.10.1
+  commands:
+    - pip check
+
 about:
   home: https://github.com/chrisdev/django-pandas
   license: BSD-3-Clause
