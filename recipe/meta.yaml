@@ -24,8 +24,7 @@ requirements:
     - pandas >=0.14.1
     - python >=3.6
     - six >=1.15.0
-  run_constrained:
-    - django >=1.4.5
+    - django >=1.4.5  # not listed as a dependency in source, but it should be
 
 test:
   imports:
@@ -37,7 +36,6 @@ test:
     - django_pandas.models
   requires:
     - pip
-    - django >=1.4.5
     - coverage ==5.4
     - semver ==2.10.1
   commands:
