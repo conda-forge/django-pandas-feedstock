@@ -1,6 +1,6 @@
 {% set name = "django-pandas" %}
-{% set version = "0.6.6" %}
-{% set sha256 = "514d701452e85fed8f8efa28bd8a650a1c3e995f0cd550884df174a0ca90d71f" %}
+{% set version = "0.6.7" %}
+{% set sha256 = "f64fdf4aec1ff36f853a87400482f2f7826c403a2582a7429610a3eae97dca02" %}
 
 package:
   name: {{ name|lower }}
@@ -49,8 +49,7 @@ about:
   license_family: BSD
   license_file: LICENSE.rst
   summary: 'Tools for working with pandas in your Django projects'
-  description: 
-    Tools for working with pandas in your Django projects
+  description: Tools for working with pandas in your Django projects
   doc_url: https://media.readthedocs.org/pdf/django-pandas/latest/django-pandas.pdf
   dev_url: https://github.com/chrisdev/django-pandas
 
